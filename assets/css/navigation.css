@@ -1,0 +1,45 @@
+.navigation {
+    margin-top: 0;
+    top: 0;
+
+    height: 60px;
+    width: 100%;
+
+    position: fixed;
+    z-index: 100;
+
+    background-color: var(--background_color);
+    box-shadow: var(--shadow_color) 0px 0px 10px;
+}
+.navigation a, .navigation a:focus {
+    color: var(--text_color);
+
+    height: 60px;
+
+    font-weight: 600;
+    line-height: 60px;
+    
+    display: inline-block;
+
+    vertical-align: top;
+
+    margin-right: 20px;
+}
+.navigation a img {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.navigation .wrapper {
+    width: 80%;
+    max-width: 800px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media( max-width: 400px ) {
+    .navigation a, .navigation a:focus {
+        margin-right: 15px;
+    }
+}

@@ -12,6 +12,29 @@
     <![endif]-->
   </head>
   <body>
+    <nav>
+      <div class="navigation">
+        <div class="wrapper">
+          <a href="/"><img src="/public/static/navigation-logo.png" alt="Startseite"></a>
+          <a href="/blog">Blog</a>
+          <a href="/downloads">Downloads</a>
+        </div>
+      </div>
+  </nav>
+
+  <div class="content">
+    <noscript>
+        <div class="error-message">
+            <h2>JavaScript nicht aktiviert</h2>
+            <p>Bitte aktviere JavaScript in deinem Browser, um diese Website vollständig nutzen zu können..</p>
+        </div>
+    </noscript>
+  </div>
+  <div class="content">
+    {{content}}
+  </div>
+
+    <!--
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -42,7 +65,7 @@
       <h1>Bastian's Theme</h1>
       {{ content }}
 
-      </section>
+      </section>-->
       <footer>
         <div class="content">
           <ul>

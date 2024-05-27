@@ -1,14 +1,14 @@
 /* Colors */
 :root {
-    --initials_green: #204E27;
+    --initials_green: #041E42;
 
-    --action_green_1: #204E27; 
-    --action_green_2: #93F1A1;
+    --action_green_1: #041E42; 
+    --action_green_2: #04316A;
 
     --text_color: #000000;
     --light_text_color: #999999;
     --background_color: #FFFFFF;
-    --link_color: #295B30;
+    --link_color: #041E42;
 
     --shadow_color: #dddddd;
     --shadow_active_color: #aaaaaa;
@@ -105,6 +105,18 @@ p {
     margin-top: 80px;
 }
 
+/* Big Link Button */
+.big-button, .big-button:focus {
+    width: 100%;
+    background-color: var(--action_green_2);
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
 /* Footer */
 footer ul {

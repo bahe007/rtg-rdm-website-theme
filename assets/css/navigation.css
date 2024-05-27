@@ -66,4 +66,8 @@
     .navigation a, .navigation .fau-link {
         margin-left: 50px;
     }
+
+    .navigation #navigation-button:checked ~ .fau-link {
+        display: none;
+    }
 }

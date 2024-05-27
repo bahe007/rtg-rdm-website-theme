@@ -45,3 +45,18 @@
         margin-right: 15px;
     }
 }
+
+@media( max-width: 600px ) {
+    .navigation .wrapper {
+        width: 100%;
+        background-color: white;
+    }
+
+    .navigation .cluster-link, .navigation .fau-link {
+        display: block;
+    }
+
+    .navigation a {
+        margin-left: 50px;
+    }
+}

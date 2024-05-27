@@ -40,6 +40,10 @@
     display: flex;
 }
 
+.navigation .fau-link {
+    margin-left: auto;
+}
+
 @media( max-width: 400px ) {
     .navigation a, .navigation a:focus {
         margin-right: 15px;
@@ -50,13 +54,14 @@
     .navigation .wrapper {
         width: 100%;
         background-color: white;
+        display: inline-block;
     }
 
     .navigation .cluster-link, .navigation .fau-link {
         display: block;
     }
 
-    .navigation a {
+    .navigation a, .navigation .fau-link {
         margin-left: 50px;
     }
 }

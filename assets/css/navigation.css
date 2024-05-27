@@ -55,6 +55,8 @@
         width: 100%;
         background-color: white;
         display: inline-block;
+
+        box-shadow: var(--shadow_color) 0px 0px 10px;
     }
 
     .navigation .cluster-link, .navigation .fau-link {

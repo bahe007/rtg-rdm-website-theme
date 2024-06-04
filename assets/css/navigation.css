@@ -44,6 +44,11 @@
     margin-left: auto;
 }
 
+.navigation #navigation-button {
+    display: none;
+}
+
+
 @media( max-width: 400px ) {
     .navigation a, .navigation a:focus {
         margin-right: 15px;
@@ -69,5 +74,9 @@
 
     .navigation #navigation-button:checked ~ .fau-link {
         display: none;
+    }
+
+    .navigation #navigation-button {
+        display: block;
     }
 }

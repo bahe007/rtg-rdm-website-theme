@@ -74,6 +74,7 @@
 
     .navigation input[type=checkbox]:checked + .fau-link {
         display: none;
+        background-color: red;
     }
 
     .navigation .navigation-button-label {

@@ -87,6 +87,10 @@
         display: block;
     }
 
+    .navigation input[type=checkbox]:checked .nav-hamburger-inner::before {
+        top: -10px; 
+    }
+
     .navigation .fau-link {
         position: static;
     }

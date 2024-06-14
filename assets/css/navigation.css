@@ -42,7 +42,8 @@
 
 .navigation .fau-link {
     position: absolute;
-    right: 50px;
+    right: 10%;
+    margin-right: 0px;
 }
 
 .navigation #navigation-button, .navigation .navigation-button-label {

@@ -87,7 +87,7 @@
         display: block;
     }
 
-    .navigation input[type=checkbox]:checked + .nav-hamburger-inner::before {
+    .navigation input[type=checkbox]:checked ~ .nav-hamburger-inner::before {
         top: -10px; 
     }
 

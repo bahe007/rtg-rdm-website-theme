@@ -128,7 +128,7 @@
 .nav-hamburger-inner, .nav-hamburger-inner::before, .nav-hamburger-inner::after {
       width: 25px;
       height: 2px;
-      background-color: var(--menu_text_color);
+      background-color: var(--action_green_1);
       border-radius: 2px;
       position: absolute;
       transition-property: transform;

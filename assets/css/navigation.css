@@ -78,7 +78,6 @@
 
     .navigation input[type=checkbox]:checked + .navigation-links {
         display: block;
-        background-color: red;
     }
 
     .navigation .navigation-button-label {

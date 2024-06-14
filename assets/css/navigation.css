@@ -72,8 +72,12 @@
         margin-left: 50px;
     }
 
-    .navigation input[type=checkbox]:checked + .navigation-links {
+    .navigation .navigation-links {
         display: none;
+    }
+
+    .navigation input[type=checkbox]:checked + .navigation-links {
+        display: block;
         background-color: red;
     }
 

@@ -108,6 +108,10 @@ p {
     margin-top: 80px;
 }
 
+.content img {
+    width: 100%;
+}
+
 /* Big Link Button */
 .big-button, .big-button:focus {
     width: 100%;

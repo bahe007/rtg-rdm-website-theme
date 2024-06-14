@@ -41,7 +41,8 @@
 }
 
 .navigation .fau-link {
-    margin-left: auto;
+    position: absolute;
+    right: 50px;
 }
 
 .navigation #navigation-button, .navigation .navigation-button-label {
@@ -78,6 +79,10 @@
 
     .navigation input[type=checkbox]:checked + .navigation-links {
         display: block;
+    }
+
+    .navigation .fau-link {
+        position: static;
     }
 
     .navigation .navigation-button-label {

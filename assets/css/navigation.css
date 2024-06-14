@@ -73,8 +73,7 @@
     }
 
     .navigation input[type=checkbox]:checked + .navigation-links {
-        /*display: none;*/
-        height: 0px;
+        display: none;
         background-color: red;
     }
 
